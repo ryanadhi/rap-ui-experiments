@@ -3,6 +3,7 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import 'prismjs/themes/prism.css';
 import Navbar from "./components/web-components/NavBar";
+import Script from "next/script";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -19,6 +20,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <Script async defer src="https://buttons.github.io/buttons.js" />
       <body className={inter.className}>
         <div>
           <Navbar />

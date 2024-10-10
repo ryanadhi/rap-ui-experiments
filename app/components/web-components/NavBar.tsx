@@ -11,6 +11,19 @@ const Navbar = () => {
           <span className="">rap - UI Experiments</span>
         </Link>
       </div>
+      <div>
+        <Link
+          className="github-button"
+          href="https://github.com/ryanadhi/rap-ui-experiments"
+          data-color-scheme="no-preference: light; light: light; dark: dark;"
+          data-icon="octicon-star"
+          data-size="large"
+          data-show-count="true"
+          aria-label="Star ryanadhi/rap-ui-experiments on GitHub"
+        >
+          Star
+        </Link>
+      </div>
     </nav>
   );
 };
