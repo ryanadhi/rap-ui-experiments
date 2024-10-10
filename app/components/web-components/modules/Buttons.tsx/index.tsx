@@ -4,6 +4,8 @@ import ButtonHover from "@uiComponents/Buttons/ButtonHover";
 import buttonHoverCodeSample from "@uiComponents/Buttons/ButtonHover/codeSample";
 import ButtonGlowing from "@uiComponents/Buttons/ButtonGradientGlowing";
 import buttonGlowingCodeSample from "@uiComponents/Buttons/ButtonGradientGlowing/codeSample";
+import ButtonCircle from "@uiComponents/Buttons/ButtonCircle";
+import buttonCircleCodeSample from "@uiComponents/Buttons/ButtonCircle/codeSample";
 import CodeBlock from "../../common/CodeBlock";
 
 const Buttons = () => {
@@ -27,6 +29,12 @@ const Buttons = () => {
           containerStyle="basis-full"
           tab1={<ButtonGlowing />}
           tab2={<CodeBlock code={buttonGlowingCodeSample} />}
+        />
+        <ComponentPreview
+          title="Arrow circling button"
+          containerStyle="basis-full"
+          tab1={<ButtonCircle />}
+          tab2={<CodeBlock code={buttonCircleCodeSample} />}
         />
       </div>
     </div>
