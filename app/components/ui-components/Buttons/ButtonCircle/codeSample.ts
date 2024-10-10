@@ -58,7 +58,7 @@ const ButtonCircle = () => {
         xmlns="http://www.w3.org/2000/svg"
         fill="none"
         viewBox="0 0 24 24"
-        stroke-width="1.5"
+        strokeWidth="1.5"
         className="absolute inset-0 m-auto fill-slate-500 w-8 h-8 z-20 stroke-slate-800"
         initial={{ x: 0 }} // Initial position of the arrow
         variants={{
@@ -66,8 +66,8 @@ const ButtonCircle = () => {
         }}
       >
         <path
-          stroke-linecap="round"
-          stroke-linejoin="round"
+          strokeLinecap="round"
+          strokeLinejoin="round"
           d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3"
         />
       </motion.svg>
