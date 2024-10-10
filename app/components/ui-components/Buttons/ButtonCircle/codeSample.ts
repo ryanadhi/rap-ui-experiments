@@ -1,6 +1,4 @@
 const codeSample: string = `
-"use client";
-
 import { motion } from "framer-motion";
 
 const ButtonCircle = () => {
@@ -10,6 +8,7 @@ const ButtonCircle = () => {
       role="button"
       initial="hidden" // Start in hidden state
       whileHover="visible" // Trigger hover animations for both circle and arrow
+      whileTap="visible" // Trigger tap animations for both circle and arrow
     >
       <svg
         className="fill-slate-100"

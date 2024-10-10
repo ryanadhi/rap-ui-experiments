@@ -15,11 +15,11 @@ const ComponentPreview = (props: ComponentPreviewProps) => {
   return (
     <div className={containerStyle}>
       <div className="">
-        <h2 className="text-xl font-semibold tracking-tight text-gray-800">{title}</h2>
+        <h2 className="text-lg md:text-xl font-semibold tracking-tight text-gray-800">{title}</h2>
       </div>
       <div className="flex space-x-4 border-b border-gray-400 my-1 w-full gap-4 relative ">
         <button
-          className={`border-b-4 p-2 transition-all duration-300 ${
+          className={`text-sm md:text-base border-b-4 p-2 transition-all duration-300 ${
             activeTab === 1 ? "border-gray-800" : "border-transparent"
           }`}
           onClick={() => setActiveTab(1)}
@@ -27,7 +27,7 @@ const ComponentPreview = (props: ComponentPreviewProps) => {
           Preview
         </button>
         <button
-          className={`border-b-4 p-2 transition-all duration-300 ${
+          className={`text-sm md:text-base border-b-4 p-2 transition-all duration-300 ${
             activeTab === 2 ? "border-gray-800" : "border-transparent"
           }`}
           onClick={() => setActiveTab(2)}
