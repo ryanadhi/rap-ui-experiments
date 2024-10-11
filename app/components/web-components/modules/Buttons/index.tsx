@@ -10,7 +10,7 @@ import CodeBlock from "../../common/CodeBlock";
 
 const Buttons = () => {
   return (
-    <div className="">
+    <div className="mb-4">
       <div className="bg-gradient-to-r from-gray-100 to-gray-200 p-4 md:p-6 rounded-lg">
         <h1 className="text-2xl md:text-4xl font-bold tracking-tight my-1">Button</h1>
         <p className="text-balance text-sm md:text-lg text-gray-500">
